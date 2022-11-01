@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment-1 HTML</title>
+</head>
+
+<body>
+    <!-- heading tag -->
+    <h1>HTML LEARNING</h1>
+    <H2>HTML LEARNING SUBHEADING</H2>
+    <H3>NEXT HEADING</H3>
+    <!-- ths is a paragraph tag -->
+    <p>this is a paragraph tag</p>
+    <!-- lorem : dummy text to view how our paragaraph looks -->
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis id quam aperiam reprehenderit dolore non
+        harum ipsam, eum necessitatibus nostrum sint enim eveniet ipsa aspernatur qui reiciendis beatae ad sapiente.</p>
+    <p>Inline elements & block level elements</p>
+    <!-- Anchor tag -->
+    <a href="https://unsplash.com">Unsplash</a>
+    <!-- break row -->
+    <br>
+    <a href="https://twitter.com">Twitter</a>
+    <!-- Anchor tag with target keyword -->
+    <a href="http://outlook.live.com/owa/" target="_blank">Outlook</a>
+
+    <!-- Lists : 1.Ordered list, 2. Unordered lists -->
+    <!-- UNORDERED LIST -->
+    <ul>
+        <li>ITEM 1</li>
+        <li>ITEM 2</li>
+        <li>ITEM 3</li>
+        <li>ITEM 4</li>
+    </ul>
+
+    <!-- ORDERED LISTS -->
+    <ol>
+        <li>ITEM1</li>
+        <li>ITEM2</li>
+        <li>ITEM3</li>
+        <li>ITEM4</li>
+
+    </ol>
+    
+    <!-- table tags -->
+    <table>
+        <thead>
+            <tr>
+                <th>NAME</th>
+                <th>AGE</th>
+                <th>EMAIL</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>zik</td>
+                <td>24</td>
+                <td>zik@gmail.com</td>
+            </tr>
+            <tr>
+                <td>zaka</td>
+                <td>22</td>
+                <td>zaka@gmail.com</td>
+            </tr>
+        </tbody>
+    </table>
+    <!-- form tag -->
+    <hr>
+    <form>
+        <!-- TEXT TYPE INPUT -->
+        <div>
+            <label>NAME</label>
+            <input type="text" name="name">
+        </div>
+        <!-- NUMBER TYPE INPUT -->
+        <div>
+            <label>AGE</label>
+            <input type="number" name="age">
+        </div>
+        <!-- TEXTAREA TAG -->
+        <div>
+            <label>Message</label>
+            <textarea name="message" ></textarea>
+        </div>
+        <!-- SELECT-OPTION TAGS -->
+        <div>
+            <label>Color</label>
+            <select name="color" id="">
+                <option value="red">RED</option>
+                <option value="green">GREEN</option>
+                <option value="blue">BLUE</option>
+            </select>
+            <!-- CHECK BOX INPUT TYPE -->
+        </div>
+            <label>what do you own:</label>
+            <input type="checkbox" name="vehicle1" id="">
+            <label for="">car</label>
+            <input type="checkbox" name="vehicle2" id="">
+            <label for="">bike</label>
+            <input type="checkbox" name="vehicle3" id="">
+            <label for="">train</label>
+            <!-- RADIO INPUT TYPE-->
+        <div>
+            <label for="">Gender</label>
+            <input type="radio" name="gender1" id="">
+            <label for="">MALE</label>
+            <input type="radio" name="gender2" id="">
+            <label for="">FEMALE</label>
+        </div>
+          <!-- SUBMIT BUTTON -->
+        <div>
+            <input type="submit" value="CLICK ME">
+        </div>
+    </form>
+    <!-- IMAGE TAG -->
+    <img src="https://images.unsplash.com/photo-1664575196644-808978af9b1f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1287&q=80" alt="this image is taken from unsplash.com" width="180" height="200">
+
+    <!-- adress tag -->
+    <H2>ADRESS goes here</H2>
+    <address>
+        written by: <a href="mailto:zikrulla.zik@gmail.com">Zikrulla</a>.<br>
+        visit us at: abc@d.com<br>
+        Box 544, Bengaluru<br>
+        INDIA
+    </address>
+    <p> <b> This is a sample java code <br> </b>
+        <code>
+            class FibonacciExample2{  <br>
+                static int n1=0,n2=1,n3=0;<br>    
+                static void printFibonacci(int count){<br>    
+                   if(count>0){    <br>
+                        n3 = n1 + n2;  <br>  
+                        n1 = n2;    <br>
+                        n2 = n3;    <br>
+                        System.out.print(" "+n3);<br>   
+                        printFibonacci(count-1);    <br>
+                    }   <br> 
+                } 
+        </code> 
+    </p>
+    
+    <!-- PROGRESS TAG -->
+    <h1> <u> The progress element </u> </h1>
+
+    <label for="file">LEARNING HTML</label>
+    <progress id="file" value="10" max="100"> 10% </progress>
+    <h1>thank you! </h1>
+
+
+</body>
+
+</html>
